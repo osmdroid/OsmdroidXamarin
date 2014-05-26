@@ -1,0 +1,50 @@
+<metadata>
+	<!-- fixup the namespaces, notice that we have to do one for each namespace. -->
+	<attr path="/api/package[@name='org.osmdroid']" name="managedName">Osmdroid</attr>
+	<attr path="/api/package[@name='org.osmdroid.api']" name="managedName">Osmdroid.Api</attr>
+	<attr path="/api/package[@name='org.osmdroid.contributor']" name="managedName">Osmdroid.Contributor</attr>
+	<attr path="/api/package[@name='org.osmdroid.contributor.util']" name="managedName">Osmdroid.Contributor.Util</attr>
+	<attr path="/api/package[@name='org.osmdroid.contributor.util.constants']" name="managedName">Osmdroid.Util.Constants</attr>
+	<attr path="/api/package[@name='org.osmdroid.events']" name="managedName">Osmdroid.Events</attr>
+	<attr path="/api/package[@name='org.osmdroid.tileprovider']" name="managedName">Osmdroid.TileProvider</attr>
+	<attr path="/api/package[@name='org.osmdroid.tileprovider.constants']" name="managedName">Osmdroid.TileProvider.Constants</attr>
+	<attr path="/api/package[@name='org.osmdroid.tileprovider.modules']" name="managedName">Osmdroid.TileProvider.Modules</attr>
+	<attr path="/api/package[@name='org.osmdroid.tileprovider.tilesource']" name="managedName">Osmdroid.TileProvider.TileSource</attr>
+	<attr path="/api/package[@name='org.osmdroid.tileprovider.util']" name="managedName">Osmdroid.TileProvider.Util</attr>
+	<attr path="/api/package[@name='org.osmdroid.util']" name="managedName">Osmdroid.Util</attr>
+	<attr path="/api/package[@name='org.osmdroid.views']" name="managedName">Osmdroid.Views</attr>
+	<attr path="/api/package[@name='org.osmdroid.views.overlay']" name="managedName">Osmdroid.Views.Overlay</attr>
+	<attr path="/api/package[@name='org.osmdroid.views.util.constants']" name="managedName">Osmdroid.Views.Util.Constants</attr>
+	<!-- different scoping rules in .NET, so we make these public -->
+	<attr path="/api/package[@name='org.osmdroid.tileprovider.modules']/class[@name='MapTileModuleProviderBase.TileLoader']" name="visibility">public</attr>
+	<attr path="/api/package[@name='org.osmdroid.tileprovider.modules']/class[@name='MapTileModuleProviderBase.TileLoader']/method[@name='loadTile']" name="visibility">public</attr>
+	<attr path="/api/package[@name='org.osmdroid.tileprovider']/class[@name='MapTileProviderBase.ScaleTileLooper']/method[@name='handleTile']" name="visibility">public</attr>
+	<attr path="/api/package[@name='org.osmdroid.tileprovider']/class[@name='MapTileProviderBase.ZoomInTileLooper']/method[@name='handleTile']" name="visibility">public</attr>
+	<attr path="/api/package[@name='org.osmdroid.tileprovider']/class[@name='MapTileProviderBase.ZoomOutTileLooper']/method[@name='handleTile']" name="visibility">public</attr>
+	<!-- Draw() seems to be public for android so we need to be consistent about it.  C# doesn't like to mix visibility during inheritance. -->
+	<attr path="/api/package[@name='org.osmdroid.views.overlay']/class[@name='Overlay']/method[@name='draw']" name="visibility">public</attr>
+	<attr path="/api/package[@name='org.osmdroid.views.overlay']/class[@name='TilesOverlay']/method[@name='draw']" name="visibility">public</attr>
+	<attr path="/api/package[@name='org.osmdroid.views.overlay']/class[@name='PathOverlay']/method[@name='draw']" name="visibility">public</attr>	
+	<attr path="/api/package[@name='org.osmdroid.views.overlay']/class[@name='NonAcceleratedOverlay']/method[@name='draw']" name="visibility">public</attr>	
+	<attr path="/api/package[@name='org.osmdroid.views.overlay']/class[@name='ScaleBarOverlay']/method[@name='draw']" name="visibility">public</attr>	
+	<attr path="/api/package[@name='org.osmdroid.views.overlay']/class[@name='ItemizedOverlay']/method[@name='draw']" name="visibility">public</attr>	
+	<attr path="/api/package[@name='org.osmdroid.views.overlay.compass']/class[@name='CompassOverlay']/method[@name='draw']" name="visibility">public</attr>	
+	<attr path="/api/package[@name='org.osmdroid.views.overlay.mylocation']/class[@name='MyLocationNewOverlay']/method[@name='draw']" name="visibility">public</attr>	
+	
+	<!-- TODO fix this instead of removing it -->
+	<remove-node path="/api/package[@name='org.osmdroid.tileprovider.tilesource']/class[@name='CloudmadeTileSource']" />
+
+	<!-- Return Object in OverlayManager.Get(int) so that we match ArrayList. -->
+	<attr path="/api/package[@name='org.osmdroid.views.overlay']/class[@name='OverlayManager']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object</attr>
+	<!-- Return IMapController in MapView.Controller so that we match IMapView. -->
+	<attr path="/api/package[@name='org.osmdroid.views']/class[@name='MapView']/method[@name='getController']" name="managedReturn">Osmdroid.Api.IMapController</attr>
+	<!-- We need to rename class MapView.Projection because it conflicts with a property of the same name -->
+	<attr path="/api/package[@name='org.osmdroid.views']/class[@name='MapView.Projection']" name="managedName">MapView.ProjectionImpl</attr>
+	<!-- Change return type to match IMapView.Projection property return type -->
+	<attr path="/api/package[@name='org.osmdroid.views']/class[@name='MapView']/method[@name='getProjection']" name="managedReturn">Osmdroid.Api.IProjection</attr>
+	<!-- fix up some parameter names -->
+	<attr path="/api/package[@name='org.osmdroid.views']/class[@name='MapView']/method[@name='setTileSource']/parameter[@name='p0']" name="name">tileSource</attr>
+	<attr path="/api/package[@name='org.osmdroid.views']/class[@name='MapView']/method[@name='setBuiltInZoomControls']/parameter[@name='p0']" name="name">show</attr>
+	<attr path="/api/package[@name='org.osmdroid.api']/interface[@name='IMapController']/method[@name='setZoom']/parameter[@name='p0']" name="name">zoomLevel</attr>
+	<attr path="/api/package[@name='org.osmdroid.api']/interface[@name='IMapController']/method[@name='setCenter']/parameter[@name='p0']" name="name">centreOfMap</attr>
+</metadata>
