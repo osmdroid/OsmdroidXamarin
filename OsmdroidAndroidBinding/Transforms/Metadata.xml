@@ -13,6 +13,7 @@
 	<attr path="/api/package[@name='org.osmdroid.tileprovider.util']" name="managedName">Osmdroid.TileProvider.Util</attr>
 	<attr path="/api/package[@name='org.osmdroid.util']" name="managedName">Osmdroid.Util</attr>
 	<attr path="/api/package[@name='org.osmdroid.views']" name="managedName">Osmdroid.Views</attr>
+	<attr path="/api/package[@name='org.osmdroid.views.drawing']" name="managedName">Osmdroid.Views.Drawing</attr>
 	<attr path="/api/package[@name='org.osmdroid.views.overlay']" name="managedName">Osmdroid.Views.Overlay</attr>
 	<attr path="/api/package[@name='org.osmdroid.views.util.constants']" name="managedName">Osmdroid.Views.Util.Constants</attr>
 	<!-- different scoping rules in .NET, so we make these public -->
