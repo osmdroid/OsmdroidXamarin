@@ -43,9 +43,4 @@
 	<attr path="/api/package[@name='org.osmdroid.views']/class[@name='MapView.Projection']" name="managedName">MapView.ProjectionImpl</attr>
 	<!-- Change return type to match IMapView.Projection property return type -->
 	<attr path="/api/package[@name='org.osmdroid.views']/class[@name='MapView']/method[@name='getProjection']" name="managedReturn">Osmdroid.Api.IProjection</attr>
-	<!-- fix up some parameter names -->
-	<attr path="/api/package[@name='org.osmdroid.views']/class[@name='MapView']/method[@name='setTileSource']/parameter[@name='p0']" name="name">tileSource</attr>
-	<attr path="/api/package[@name='org.osmdroid.views']/class[@name='MapView']/method[@name='setBuiltInZoomControls']/parameter[@name='p0']" name="name">show</attr>
-	<attr path="/api/package[@name='org.osmdroid.api']/interface[@name='IMapController']/method[@name='setZoom']/parameter[@name='p0']" name="name">zoomLevel</attr>
-	<attr path="/api/package[@name='org.osmdroid.api']/interface[@name='IMapController']/method[@name='setCenter']/parameter[@name='p0']" name="name">centreOfMap</attr>
 </metadata>
