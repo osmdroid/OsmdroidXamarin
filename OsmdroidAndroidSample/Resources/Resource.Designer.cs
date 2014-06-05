@@ -60,8 +60,14 @@ namespace OsmdroidAndroidSample
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050001
+			public const int map_container = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int mapview = 2131034114;
+			
 			// aapt resource value: 0x7f050000
-			public const int mapview = 2131034112;
+			public const int parent_container = 2131034112;
 			
 			static Id()
 			{
@@ -79,6 +85,9 @@ namespace OsmdroidAndroidSample
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
 			
+			// aapt resource value: 0x7f030001
+			public const int MapView = 2130903041;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -92,11 +101,62 @@ namespace OsmdroidAndroidSample
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f040006
+			public const int about = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public const int about_message = 2130968583;
 			
 			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			public const int app_name = 2130968576;
+			
+			// aapt resource value: 0x7f040012
+			public const int compass = 2130968594;
+			
+			// aapt resource value: 0x7f040008
+			public const int first_fix_message = 2130968584;
+			
+			// aapt resource value: 0x7f040011
+			public const int format_distance_feet = 2130968593;
+			
+			// aapt resource value: 0x7f04000e
+			public const int format_distance_kilometers = 2130968590;
+			
+			// aapt resource value: 0x7f04000d
+			public const int format_distance_meters = 2130968589;
+			
+			// aapt resource value: 0x7f04000f
+			public const int format_distance_miles = 2130968591;
+			
+			// aapt resource value: 0x7f040010
+			public const int format_distance_nautical_miles = 2130968592;
+			
+			// aapt resource value: 0x7f040002
+			public const int map_mode = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int my_location = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int offline = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int samples = 2130968581;
+			
+			// aapt resource value: 0x7f04000c
+			public const int set_mode_hide_me = 2130968588;
+			
+			// aapt resource value: 0x7f040009
+			public const int set_mode_offline = 2130968585;
+			
+			// aapt resource value: 0x7f04000a
+			public const int set_mode_online = 2130968586;
+			
+			// aapt resource value: 0x7f04000b
+			public const int set_mode_show_me = 2130968587;
+			
+			// aapt resource value: 0x7f040001
+			public const int unknown = 2130968577;
 			
 			static String()
 			{
