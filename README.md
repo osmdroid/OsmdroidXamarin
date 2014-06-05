@@ -1,7 +1,7 @@
 OsmdroidXamarin
 ===============
 
-[Xamarin](Xamarin.com) bindings for osmdroid jar
+[Xamarin](http://xamar.in/r/neilb/xamarin.com) bindings for osmdroid jar
 
 This is based on the Xamarin guide
 [Binding a Java Library](http://docs.xamarin.com/guides/android/advanced_topics/java_integration_overview/binding_a_java_library_(.jar)/)
