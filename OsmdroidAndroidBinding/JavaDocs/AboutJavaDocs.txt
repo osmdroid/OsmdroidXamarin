@@ -1,0 +1,6 @@
+Download and extract javadoc from the jar into a sub-folder.
+Include in git, but not in the project.
+This is used for correct naming of parameters as described in the following link:
+http://developer.xamarin.com/guides/android/advanced_topics/java_integration_overview/binding_a_java_library_(.jar)/naming_parameters_with_javadoc/
+If the javadocs are in Java7 format, then the tag should be Java7DocPaths instead of JavaDocPaths as described here:
+http://forums.xamarin.com/discussion/11121/including-javadocs-in-a-binding-library

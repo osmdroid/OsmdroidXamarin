@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <Java7DocPaths>javadoc</Java7DocPaths>
+    <Java7DocPaths>JavaDocs\osmdroid-android-4.2-javadoc</Java7DocPaths>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
@@ -58,6 +58,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\slf4j-android-1.6.1-RC1.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="JavaDocs\AboutJavaDocs.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
