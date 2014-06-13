@@ -8,3 +8,6 @@ This is based on the Xamarin guide
 and the sample project
 [OsmDroidBindingExample](https://github.com/xamarin/monodroid-samples/tree/master/OsmDroidBindingExample)
 and updated to osmdroid version 4.2.
+
+You can include it in your project by adding the
+[Xamarin Component](https://components.xamarin.com/view/osmdroid-android-binding).
