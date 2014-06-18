@@ -1,0 +1,14 @@
+<metadata>
+  <!-- fixup the namespaces, notice that we have to do one for each namespace. -->
+  <attr path="/api/package[@name='org.osmdroid.tileprovider.tilesource.bing']" name="managedName">Osmdroid.TileProvider.TileSource.Bing</attr>
+  <attr path="/api/package[@name='org.osmdroid.tileprovider.tilesource.bing.imagerymetadata']" name="managedName">Osmdroid.TileProvider.TileSource.Bing.ImageryMetaData</attr>
+  <attr path="/api/package[@name='org.osmdroid.google.overlay']" name="managedName">Osmdroid.Google.Overlay</attr>
+  <attr path="/api/package[@name='org.osmdroid.google.wrapper']" name="managedName">Osmdroid.Google.Wrapper</attr>
+  <attr path="/api/package[@name='org.osmdroid.google.wrapper.v2']" name="managedName">Osmdroid.Google.Wrapper.V2</attr>
+  
+  <!-- Change return type to match Android.GoogleMaps.ItemizedOverlay.CreateItem(int) property return type -->
+  <attr path="/api/package[@name='org.osmdroid.google.overlay']/class[@name='GoogleItemizedOverlay']/method[@name='createItem']" name="managedReturn">Java.Lang.Object</attr>
+
+  <!-- This doesn't generate properly -->
+  <remove-node path="/api/package[@name='org.osmdroid.google.wrapper']/class[@name='MapView']/method[@name='setBackgroundColor']" />
+</metadata>
