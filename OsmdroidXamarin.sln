@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsmdroidAndroidSample", "OsmdroidAndroidSample\OsmdroidAndroidSample.csproj", "{3979D176-2A4C-483C-9009-7E1D05832B01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsmdroidThirdpartyAndroidBinding", "OsmdroidThirdpartyAndroidBinding\OsmdroidThirdpartyAndroidBinding.csproj", "{B966B118-68D7-4D9F-94E1-91CAE95ED1EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsmdroidThirdPartyBinding", "OsmdroidThirdPartyBinding\OsmdroidThirdPartyBinding.csproj", "{B966B118-68D7-4D9F-94E1-91CAE95ED1EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
