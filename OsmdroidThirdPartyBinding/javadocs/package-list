@@ -1,0 +1,5 @@
+org.osmdroid.google.overlay
+org.osmdroid.google.wrapper
+org.osmdroid.mapsforge.wrapper
+org.osmdroid.tileprovider.tilesource.bing
+org.osmdroid.tileprovider.tilesource.bing.imagerymetadata

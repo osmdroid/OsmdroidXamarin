@@ -1,0 +1,5 @@
+﻿<enum-method-mappings>
+  <!--<mapping jni-class="org/osmdroid/google/wrapper/MapView">
+    <method jni-name="setBackgroundColor" parameter="pColor" clr-enum-type="Android.Graphics.Color" />
+  </mapping>-->
+</enum-method-mappings>

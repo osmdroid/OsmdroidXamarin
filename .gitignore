@@ -4,6 +4,7 @@
 bin/
 obj/
 Components/
+packages/
 
 *.xam
 *.exe
