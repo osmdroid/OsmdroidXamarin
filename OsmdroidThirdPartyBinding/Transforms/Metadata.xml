@@ -5,7 +5,7 @@
   <attr path="/api/package[@name='org.osmdroid.google.overlay']" name="managedName">Osmdroid.Google.Overlay</attr>
   <attr path="/api/package[@name='org.osmdroid.google.wrapper']" name="managedName">Osmdroid.Google.Wrapper</attr>
   <attr path="/api/package[@name='org.osmdroid.google.wrapper.v2']" name="managedName">Osmdroid.Google.Wrapper.V2</attr>
-  
+
   <!-- Change return type to match Android.GoogleMaps.ItemizedOverlay.CreateItem(int) property return type -->
   <attr path="/api/package[@name='org.osmdroid.google.overlay']/class[@name='GoogleItemizedOverlay']/method[@name='createItem']" name="managedReturn">Java.Lang.Object</attr>
 

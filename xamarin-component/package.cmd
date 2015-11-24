@@ -1,4 +1,4 @@
-xamarin-component.exe create-manually osmdroid-android-binding-4.2.xam ^
+xamarin-component.exe create-manually osmdroid-android-binding-5.0.1.xam ^
     --name="osmdroid-android-binding" ^
     --summary="OpenStreetMap-Tools for Android" ^
     --publisher="Neil Boyd" ^

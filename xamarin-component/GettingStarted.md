@@ -16,7 +16,7 @@ However, for more control over your `MapView`, you will want to create a `MapVie
 public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
 {
     _resourceProxy = new ResourceProxyImpl(inflater.Context.ApplicationContext);
-    _mapView = new MapView(inflater.Context, 256, _resourceProxy);
+    _mapView = new MapView(inflater.Context, _resourceProxy);
     return _mapView;
 }
 ```

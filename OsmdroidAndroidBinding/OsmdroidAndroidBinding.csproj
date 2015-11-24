@@ -55,13 +55,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\osmdroid-android-4.2.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\slf4j-android-1.6.1-RC1.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="JavaDocs\AboutJavaDocs.txt" />
+    <EmbeddedJar Include="Jars\osmdroid-android-5.0.1.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

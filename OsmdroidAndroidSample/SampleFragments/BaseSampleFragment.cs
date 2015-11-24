@@ -17,7 +17,7 @@ namespace OsmdroidAndroidSample.SampleFragments
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             ResourceProxy = new ResourceProxyImpl(inflater.Context.ApplicationContext);
-            MapView = new MapView(inflater.Context, 256, ResourceProxy);
+            MapView = new MapView(inflater.Context, ResourceProxy);
             return MapView;
         }
 
