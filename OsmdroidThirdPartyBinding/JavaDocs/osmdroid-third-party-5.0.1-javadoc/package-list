@@ -1,0 +1,7 @@
+org.osmdroid.google.overlay
+org.osmdroid.google.wrapper
+org.osmdroid.google.wrapper.v2
+org.osmdroid.library
+org.osmdroid.thirdparty
+org.osmdroid.tileprovider.tilesource.bing
+org.osmdroid.tileprovider.tilesource.bing.imagerymetadata

@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <Java7DocPaths>JavaDocs\osmdroid-android-4.2-javadoc</Java7DocPaths>
+    <Java7DocPaths>JavaDocs\osmdroid-android-5.0.1-javadoc</Java7DocPaths>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
