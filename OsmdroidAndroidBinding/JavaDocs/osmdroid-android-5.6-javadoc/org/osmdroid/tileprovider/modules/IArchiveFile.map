@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./DatabaseFileArchive.html" title="org.osmdroid.tileprovider.modules.DatabaseFileArchive" alt="" coords="16,118,153,143"/>
+<area shape="rect" id="node1" href="./DatabaseFileArchive.html" title="&lt;TABLE&gt;" alt="" coords="5,107,164,155"/>
+<area shape="rect" id="node2_1" href="./GEMFFileArchive.html" title="org.osmdroid.tileprovider.modules.GEMFFileArchive" alt="" coords="199,118,319,143"/>
+<area shape="rect" id="node2" href="./GEMFFileArchive.html" title="&lt;TABLE&gt;" alt="" coords="189,107,330,155"/>
+<area shape="rect" id="node3_2" href="./IArchiveFile.html" title="org.osmdroid.tileprovider.modules.IArchiveFile" alt="" coords="302,11,387,53"/>
+<area shape="rect" id="node3" href="./IArchiveFile.html" title="&lt;TABLE&gt;" alt="" coords="291,5,398,59"/>
+<area shape="rect" id="node4_3" href="./MBTilesFileArchive.html" title="org.osmdroid.tileprovider.modules.MBTilesFileArchive" alt="" coords="365,118,495,143"/>
+<area shape="rect" id="node4" href="./MBTilesFileArchive.html" title="&lt;TABLE&gt;" alt="" coords="355,107,505,155"/>
+<area shape="rect" id="node5_4" href="./ZipFileArchive.html" title="org.osmdroid.tileprovider.modules.ZipFileArchive" alt="" coords="540,118,640,143"/>
+<area shape="rect" id="node5" href="./ZipFileArchive.html" title="&lt;TABLE&gt;" alt="" coords="529,107,651,155"/>
+</map>

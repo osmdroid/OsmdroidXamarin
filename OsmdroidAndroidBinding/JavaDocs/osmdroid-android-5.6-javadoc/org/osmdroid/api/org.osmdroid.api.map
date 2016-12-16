@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./IGeoPoint.html" title="org.osmdroid.api.IGeoPoint" alt="" coords="16,11,99,53"/>
+<area shape="rect" id="node1" href="./IGeoPoint.html" title="&lt;TABLE&gt;" alt="" coords="5,5,109,59"/>
+<area shape="rect" id="node2_1" href="./IMapController.html" title="org.osmdroid.api.IMapController" alt="" coords="145,11,247,53"/>
+<area shape="rect" id="node2" href="./IMapController.html" title="&lt;TABLE&gt;" alt="" coords="134,5,258,59"/>
+<area shape="rect" id="node3_2" href="./IMapView.html" title="org.osmdroid.api.IMapView" alt="" coords="293,11,376,53"/>
+<area shape="rect" id="node3" href="./IMapView.html" title="&lt;TABLE&gt;" alt="" coords="283,5,387,59"/>
+<area shape="rect" id="node4_3" href="./IProjection.html" title="org.osmdroid.api.IProjection" alt="" coords="421,11,504,53"/>
+<area shape="rect" id="node4" href="./IProjection.html" title="&lt;TABLE&gt;" alt="" coords="411,5,515,59"/>
+</map>

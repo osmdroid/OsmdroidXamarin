@@ -1,0 +1,24 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./BoundingBox.html" title="org.osmdroid.util.BoundingBox" alt="" coords="16,17,112,42"/>
+<area shape="rect" id="node1" href="./BoundingBox.html" title="&lt;TABLE&gt;" alt="" coords="5,5,123,53"/>
+<area shape="rect" id="node2_1" href="./BoundingBoxE6.html" title="org.osmdroid.util.BoundingBoxE6" alt="" coords="157,17,269,42"/>
+<area shape="rect" id="node2" href="./BoundingBoxE6.html" title="&lt;TABLE&gt;" alt="" coords="147,5,280,53"/>
+<area shape="rect" id="node3_2" href="./GEMFFile.html" title="org.osmdroid.util.GEMFFile" alt="" coords="315,17,394,42"/>
+<area shape="rect" id="node3" href="./GEMFFile.html" title="&lt;TABLE&gt;" alt="" coords="305,5,405,53"/>
+<area shape="rect" id="node4_3" href="./GEMFFile.GEMFInputStream.html" title="org.osmdroid.util.GEMFFile.GEMFInputStream" alt="" coords="440,17,568,42"/>
+<area shape="rect" id="node4" href="./GEMFFile.GEMFInputStream.html" title="&lt;TABLE&gt;" alt="" coords="429,5,579,53"/>
+<area shape="rect" id="node5_4" href="./GeometryMath.html" title="org.osmdroid.util.GeometryMath" alt="" coords="614,17,719,42"/>
+<area shape="rect" id="node5" href="./GeometryMath.html" title="&lt;TABLE&gt;" alt="" coords="603,5,730,53"/>
+<area shape="rect" id="node6_5" href="./GeoPoint.html" title="org.osmdroid.util.GeoPoint" alt="" coords="765,17,838,42"/>
+<area shape="rect" id="node6" href="./GeoPoint.html" title="&lt;TABLE&gt;" alt="" coords="754,5,849,53"/>
+<area shape="rect" id="node7_6" href="./LocationUtils.html" title="org.osmdroid.util.LocationUtils" alt="" coords="883,17,978,42"/>
+<area shape="rect" id="node7" href="./LocationUtils.html" title="&lt;TABLE&gt;" alt="" coords="873,5,989,53"/>
+<area shape="rect" id="node8_7" href="./MyMath.html" title="org.osmdroid.util.MyMath" alt="" coords="1024,17,1091,42"/>
+<area shape="rect" id="node8" href="./MyMath.html" title="&lt;TABLE&gt;" alt="" coords="1013,5,1101,53"/>
+<area shape="rect" id="node9_8" href="./NetworkLocationIgnorer.html" title="org.osmdroid.util.NetworkLocationIgnorer" alt="" coords="1136,17,1291,42"/>
+<area shape="rect" id="node9" href="./NetworkLocationIgnorer.html" title="&lt;TABLE&gt;" alt="" coords="1125,5,1301,53"/>
+<area shape="rect" id="node10_9" href="./TileLooper.html" title="org.osmdroid.util.TileLooper" alt="" coords="1336,17,1416,42"/>
+<area shape="rect" id="node10" href="./TileLooper.html" title="&lt;TABLE&gt;" alt="" coords="1325,5,1427,53"/>
+<area shape="rect" id="node11_10" href="./TileSystem.html" title="org.osmdroid.util.TileSystem" alt="" coords="1462,17,1546,42"/>
+<area shape="rect" id="node11" href="./TileSystem.html" title="&lt;TABLE&gt;" alt="" coords="1451,5,1557,53"/>
+</map>

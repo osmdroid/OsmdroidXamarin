@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./CloudmadeUtil.html" title="org.osmdroid.tileprovider.util.CloudmadeUtil" alt="" coords="16,17,120,42"/>
+<area shape="rect" id="node1" href="./CloudmadeUtil.html" title="&lt;TABLE&gt;" alt="" coords="5,5,131,53"/>
+<area shape="rect" id="node2_1" href="./Counters.html" title="org.osmdroid.tileprovider.util.Counters" alt="" coords="165,17,237,42"/>
+<area shape="rect" id="node2" href="./Counters.html" title="&lt;TABLE&gt;" alt="" coords="155,5,248,53"/>
+<area shape="rect" id="node3_2" href="./ManifestUtil.html" title="org.osmdroid.tileprovider.util.ManifestUtil" alt="" coords="283,17,371,42"/>
+<area shape="rect" id="node3" href="./ManifestUtil.html" title="&lt;TABLE&gt;" alt="" coords="272,5,381,53"/>
+<area shape="rect" id="node4_3" href="./SimpleInvalidationHandler.html" title="org.osmdroid.tileprovider.util.SimpleInvalidationHandler" alt="" coords="417,17,583,42"/>
+<area shape="rect" id="node4" href="./SimpleInvalidationHandler.html" title="&lt;TABLE&gt;" alt="" coords="406,5,594,53"/>
+<area shape="rect" id="node5_4" href="./SimpleRegisterReceiver.html" title="org.osmdroid.tileprovider.util.SimpleRegisterReceiver" alt="" coords="629,17,785,42"/>
+<area shape="rect" id="node5" href="./SimpleRegisterReceiver.html" title="&lt;TABLE&gt;" alt="" coords="618,5,795,53"/>
+<area shape="rect" id="node6_5" href="./StorageUtils.html" title="org.osmdroid.tileprovider.util.StorageUtils" alt="" coords="831,17,921,42"/>
+<area shape="rect" id="node6" href="./StorageUtils.html" title="&lt;TABLE&gt;" alt="" coords="820,5,932,53"/>
+<area shape="rect" id="node7_6" href="./StorageUtils.StorageInfo.html" title="org.osmdroid.tileprovider.util.StorageUtils.StorageInfo" alt="" coords="967,17,1051,42"/>
+<area shape="rect" id="node7" href="./StorageUtils.StorageInfo.html" title="&lt;TABLE&gt;" alt="" coords="957,5,1062,53"/>
+<area shape="rect" id="node8_7" href="./StreamUtils.html" title="org.osmdroid.tileprovider.util.StreamUtils" alt="" coords="1097,17,1185,42"/>
+<area shape="rect" id="node8" href="./StreamUtils.html" title="&lt;TABLE&gt;" alt="" coords="1087,5,1196,53"/>
+</map>

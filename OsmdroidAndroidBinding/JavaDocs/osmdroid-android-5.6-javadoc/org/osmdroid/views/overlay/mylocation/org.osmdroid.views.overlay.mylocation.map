@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./DirectedLocationOverlay.html" title="org.osmdroid.views.overlay.mylocation.DirectedLocationOverlay" alt="" coords="16,19,176,45"/>
+<area shape="rect" id="node1" href="./DirectedLocationOverlay.html" title="&lt;TABLE&gt;" alt="" coords="5,8,187,56"/>
+<area shape="rect" id="node2_1" href="./GpsMyLocationProvider.html" title="org.osmdroid.views.overlay.mylocation.GpsMyLocationProvider" alt="" coords="211,118,367,143"/>
+<area shape="rect" id="node2" href="./GpsMyLocationProvider.html" title="&lt;TABLE&gt;" alt="" coords="201,107,378,155"/>
+<area shape="rect" id="node3_2" href="./IMyLocationConsumer.html" title="org.osmdroid.views.overlay.mylocation.IMyLocationConsumer" alt="" coords="417,11,565,53"/>
+<area shape="rect" id="node3" href="./IMyLocationConsumer.html" title="&lt;TABLE&gt;" alt="" coords="406,5,575,59"/>
+<area shape="rect" id="node5_3" href="./MyLocationNewOverlay.html" title="org.osmdroid.views.overlay.mylocation.MyLocationNewOverlay" alt="" coords="413,118,568,143"/>
+<area shape="rect" id="node5" href="./MyLocationNewOverlay.html" title="&lt;TABLE&gt;" alt="" coords="403,107,579,155"/>
+<area shape="rect" id="node4_4" href="./IMyLocationProvider.html" title="org.osmdroid.views.overlay.mylocation.IMyLocationProvider" alt="" coords="221,11,357,53"/>
+<area shape="rect" id="node4" href="./IMyLocationProvider.html" title="&lt;TABLE&gt;" alt="" coords="211,5,368,59"/>
+<area shape="rect" id="node6_5" href="./SimpleLocationOverlay.html" title="org.osmdroid.views.overlay.mylocation.SimpleLocationOverlay" alt="" coords="611,19,763,45"/>
+<area shape="rect" id="node6" href="./SimpleLocationOverlay.html" title="&lt;TABLE&gt;" alt="" coords="600,8,773,56"/>
+</map>
